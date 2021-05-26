@@ -7,10 +7,11 @@
     tools:context=".MainActivity">
 
     <RadioGroup
+        android:layout_centerInParent="true"
         android:id="@+id/radio_group"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:checkedButton="@id/rb_option_b">
 
         <RadioButton
@@ -18,14 +19,60 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Option A"
-            android:textSize="24sp"/>
+            android:textSize="24sp"
+            android:layoutDirection="rtl"
+            android:button="@null"
+            android:paddingRight="12dp"
+            android:background="@drawable/bg_radio_button"
+            android:paddingLeft="12dp"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:layout_marginBottom="8dp"/>
 
         <RadioButton
             android:id="@+id/rb_option_b"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Option B"
-            android:textSize="24sp"/>
+            android:textSize="24sp"
+            android:layoutDirection="rtl"
+            android:button="@null"
+            android:paddingRight="12dp"
+            android:background="@drawable/bg_radio_button"
+            android:paddingLeft="12dp"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:layout_marginBottom="8dp"/>
+
+        <RadioButton
+            android:id="@+id/rb_option_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option C"
+            android:textSize="24sp"
+            android:layoutDirection="rtl"
+            android:button="@null"
+            android:paddingRight="12dp"
+            android:background="@drawable/bg_radio_button"
+            android:paddingLeft="12dp"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:layout_marginBottom="8dp"/>
+
+        <RadioButton
+            android:id="@+id/rb_option_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option D"
+            android:textSize="24sp"
+            android:layoutDirection="rtl"
+            android:button="@null"
+            android:paddingRight="12dp"
+            android:background="@drawable/bg_radio_button"
+            android:paddingLeft="12dp"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:layout_marginBottom="8dp"/>
     </RadioGroup>
 
 

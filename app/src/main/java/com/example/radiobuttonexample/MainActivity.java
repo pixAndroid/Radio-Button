@@ -32,8 +32,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //radioGroup.check(R.id.rb_option_a);
-        radioGroup.clearCheck();
-        radioGroup.getCheckedRadioButtonId();
+        //radioGroup.clearCheck();
+        //radioGroup.getCheckedRadioButtonId();
     }
 
 }
